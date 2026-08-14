@@ -12,8 +12,8 @@ body {
   display: flex;
   height: 6vh;
   background-color: rgba(0, 0, 0, 0.178);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
   position: fixed;
   top: 0;
   left: 0;
@@ -167,13 +167,13 @@ body {
 }
 .newmodel:hover {
   background-color: #4747474d;
-  border: 0.5px solid rgba(150, 150, 150, 0.527);
+  border: 1px solid rgba(150, 150, 150, 0.527);
   transform: 0.98;
   opacity: 0.75s;
 }
 .tag {
-  color: rgb(240, 97, 41);
-  border: 0.5px solid rgb(240, 97, 41);
+  color: #f35f32;
+  border: 0.5px solid #f35f32;
   padding: 1px 12px;
   border-radius: 12px;
   font-size: 1.3vh;
@@ -227,14 +227,14 @@ body {
   background: linear-gradient(
     to right,
     #000000,
-    #df1c0e,
-    #f7841a,
-    #fca93d,
+    #540d8d,
+    #9710a8,
+    #fcd93d,
     #000000
   );
   transform: scaleX(0);
   transform-origin: left;
-  animation: underlineGrow 5s ease-in-out infinite;
+  animation: underlineGrow 3s ease-in-out infinite;
 }
 @keyframes underlineGrow {
   0% {
@@ -318,32 +318,48 @@ p {
 .vidoes {
   display: flex;
   gap: 0.4vw;
+  justify-content: center;
+  margin-right: 15vw;
 }
-.aivideo {
+.openaivideo {
   display: block;
   overflow: hidden;
-  width: 33vmax;
+  width: 20vmax;
   height: 43vh;
   margin: 0;
   margin-left: 35vh;
   margin-top: 4vh;
   border-radius: 15px;
   object-fit: cover;
+  box-sizing: border-box;
 }
-.codevideo {
+.idevideo {
   display: block;
   overflow: hidden;
-  width: 33vmax;
+  width: 20vmax;
   height: 43vh;
+  margin-top: 4vh;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.workimg {
+  display: block;
+  overflow: hidden;
+  width: 20vmax;
+  height: 43vh;
+  margin: 0;
+  margin-left: 0vh;
   margin-top: 4vh;
   border-radius: 15px;
   object-fit: cover;
 }
 .video2 {
   display: flex;
-  gap: 1vmax;
+  gap: 0.4vw;
+  justify-content: center;
+  margin-right: 15vw;
 }
-.edvideo {
+.aimage {
   display: block;
   overflow: hidden;
   width: 33vmax;
@@ -357,8 +373,10 @@ p {
 .voicevideo {
   display: block;
   overflow: hidden;
-  width: 33vmax;
-  height: 43vh;
+  width: 27.5vmax;
+  height: 40vh;
+  margin: 0;
+  margin-left: 0vh;
   margin-top: 0.5vh;
   border-radius: 15px;
   object-fit: cover;
