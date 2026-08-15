@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #050505;
+  background-color: #000000;
   font-family: "Space Grotesk", sans-serif;
 }
 .navbar {
@@ -96,6 +96,7 @@ body {
   width: 8.5vmax;
   height: 3.7vh;
   color: white;
+  cursor: pointer;
   border-radius: 19px;
   font-family: "Space Grotesk", sans-serif;
   transition:
@@ -114,7 +115,7 @@ body {
   opacity: 0.5s;
 }
 .download {
-  background-color: rgba(240, 240, 240, 0.89);
+  background-color: rgb(255, 255, 255);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
   border: 0.5px solid rgb(92, 92, 92);
@@ -122,6 +123,7 @@ body {
   height: 3.7vh;
   color: rgb(0, 0, 0);
   border-radius: 19px;
+  cursor: pointer;
   font-family: "Space Grotesk", sans-serif;
   transition:
     background-color 0.1s,
@@ -142,7 +144,7 @@ body {
 .newmodel {
   display: inline-flex;
   justify-content: center;
-  margin-top: 4vw;
+  margin-top: 9vw;
   background-color: #2e2e2e7c;
   padding: 0.5vh 1.3vw 0.5vh 0.6vw;
   font-size: smaller;
@@ -172,8 +174,8 @@ body {
   opacity: 0.75s;
 }
 .tag {
-  color: #f35f32;
-  border: 0.5px solid #f35f32;
+  color: #f85422;
+  border: 0.5px solid #f85422;
   padding: 1px 12px;
   border-radius: 12px;
   font-size: 1.3vh;
@@ -181,6 +183,7 @@ body {
 .text {
   color: rgb(255, 255, 255);
   font-size: 1.5vh;
+  font-weight: 900;
 }
 .divide {
   color: rgba(255, 255, 255, 0.548);
@@ -201,13 +204,15 @@ body {
 }
 .head1 {
   text-align: center;
-  margin-top: 4vh;
+  margin-top: 5vh;
   font-size: 3vw;
+  font-weight: 300;
   font-family: "Space Grotesk", sans-serif;
 }
 .head2 {
   text-align: center;
   font-size: 3vw;
+  font-weight: 300;
   font-family: "Space Grotesk", sans-serif;
 }
 .highlight {
@@ -226,11 +231,11 @@ body {
   border-radius: 20px;
   background: linear-gradient(
     to right,
-    #000000,
-    #540d8d,
-    #9710a8,
+    #501eda,
+    #621ad6,
+    #c11ed6,
     #fcd93d,
-    #000000
+    #f5e278
   );
   transform: scaleX(0);
   transform-origin: left;
@@ -259,6 +264,7 @@ body {
   }
 }
 p {
+  margin-top: 1vh;
   text-align: center;
   color: #a0a0a0d5;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -266,6 +272,7 @@ p {
 .btns2 {
   display: flex;
   justify-content: center;
+  margin-top: 2vh;
   gap: 1vw;
 }
 .api {
@@ -275,6 +282,7 @@ p {
   height: 3.7vh;
   color: white;
   border-radius: 19px;
+  cursor: pointer;
   font-family: "Space Grotesk", sans-serif;
   transition:
     background-color 0.2s,
@@ -298,6 +306,7 @@ p {
   height: 3.7vh;
   color: rgb(0, 0, 0);
   border-radius: 19px;
+  cursor: pointer;
   font-family: "Space Grotesk", sans-serif;
   transition:
     background-color 0.2s,
@@ -317,6 +326,7 @@ p {
 }
 .vidoes {
   display: flex;
+  margin-top: 6vh;
   gap: 0.4vw;
   justify-content: center;
   margin-right: 15vw;
@@ -362,7 +372,7 @@ p {
 .aimage {
   display: block;
   overflow: hidden;
-  width: 33vmax;
+  width: 39vw;
   height: 40vh;
   margin: 0;
   margin-left: 35vh;
@@ -373,11 +383,105 @@ p {
 .voicevideo {
   display: block;
   overflow: hidden;
-  width: 27.5vmax;
-  height: 40vh;
+  width: 22.7vmax;
+  height: 38.5vh;
   margin: 0;
   margin-left: 0vh;
-  margin-top: 0.5vh;
+  margin-right: 1.7vh;
+  margin-top: 1.2vh;
   border-radius: 15px;
   object-fit: cover;
+}
+.block2 {
+  display: flex;
+}
+.infoapi {
+  margin: 0;
+  margin-left: 35vh;
+  margin-top: 28vh;
+  top: 5vh;
+}
+.dapi {
+  font-weight: 300;
+  font-size: 3vmax;
+}
+.inf {
+  font-weight: 300;
+  font-size: 3vmax;
+  color: #7a7a7a;
+  margin-top: 0.1vh;
+}
+.minfo {
+  margin-top: 0.2vh;
+  width: 40ch;
+  color: #5c5c5c;
+  font-weight: 400;
+}
+.cdimg {
+  display: flex;
+  overflow: hidden;
+  width: 30.9vw;
+  height: 48.5vh;
+  margin: 0;
+  margin-top: 18vh;
+  margin-right: 18vw;
+  margin-left: 12vw;
+  border-radius: 8px;
+}
+.btn3 {
+  margin-top: 3vh;
+}
+.key {
+  background-color: rgb(255, 255, 255);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 0.5px solid rgb(92, 92, 92);
+  width: 6.2vmax;
+  height: 3.7vh;
+  color: rgb(0, 0, 0);
+  border-radius: 19px;
+  cursor: pointer;
+  font-family: "Space Grotesk", sans-serif;
+  transition:
+    background-color 0.1s,
+    transform 0.15s,
+    opacity 0.15s;
+}
+.key:active {
+  background-color: #c2c2c27c;
+  transform: scale(0.98);
+  opacity: 0.5s;
+}
+.key:hover {
+  background-color: #c2c2c27c;
+  color: white;
+  transform: scale(0.5s);
+  opacity: 0.5s;
+}
+.readoc {
+  background-color: black;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 0.5px solid rgb(92, 92, 92);
+  width: 6.5vmax;
+  height: 3.7vh;
+  color: white;
+  margin-left: 0.4vw;
+  border-radius: 19px;
+  cursor: pointer;
+  font-family: "Space Grotesk", sans-serif;
+  transition:
+    background-color 0.2s,
+    transform 0.15s,
+    opacity 0.15s;
+}
+.readoc:active {
+  background-color: #5050507c;
+  transform: scale(0.98);
+  opacity: 0.5s;
+}
+.readoc:hover {
+  background-color: #5050507c;
+  transform: scale(0.5s);
+  opacity: 0.5s;
 }
