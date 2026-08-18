@@ -164,7 +164,7 @@ body {
 .newmodel:active {
   background-color: #4747474d;
   border: 0.5px solid rgba(150, 150, 150, 0.527);
-  transform: 0.98;
+  transform: 0.95;
   opacity: 0.75s;
 }
 .newmodel:hover {
