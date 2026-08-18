@@ -208,26 +208,29 @@ body {
   font-size: 3vw;
   font-weight: 300;
   font-family: "Space Grotesk", sans-serif;
+  overflow: visible;
 }
 .head2 {
   text-align: center;
   font-size: 3vw;
   font-weight: 300;
   font-family: "Space Grotesk", sans-serif;
+  overflow: visible;
 }
 .highlight {
   position: relative;
   display: inline-block;
-  color: white; /* keep text white, only underline is orange */
+  color: white;
+  overflow: visible;
 }
 
 .highlight::after {
   content: "";
   position: absolute;
-  bottom: -0px;
+  bottom: 0;
   left: 0;
   width: 100%;
-  height: 0.5px;
+  height: 1px;
   border-radius: 20px;
   background: linear-gradient(
     to right,
@@ -240,7 +243,9 @@ body {
   transform: scaleX(0);
   transform-origin: left;
   animation: underlineGrow 3s ease-in-out infinite;
+  z-index: 1;
 }
+
 @keyframes underlineGrow {
   0% {
     transform: scaleX(0);
@@ -263,6 +268,7 @@ body {
     transform-origin: right;
   }
 }
+
 p {
   margin-top: 1vh;
   text-align: center;
