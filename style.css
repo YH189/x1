@@ -485,3 +485,9 @@ p {
   transform: scale(0.5s);
   opacity: 0.5s;
 }
+.revpart {
+  display: flex;
+  margin-top: 15vh;
+  justify-content: center;
+  gap: 13vw;
+}
