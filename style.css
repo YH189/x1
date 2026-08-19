@@ -724,16 +724,17 @@ h2 {
   display: flex;
   align-items: center;
   gap: 0.6vw;
-  color: #646464;
+  color: #636363;
   text-decoration: none;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 13px;
-  transition: color 0.2s ease;
+  transition: color 0.2s;
 }
-
 .footer-right a:hover {
-  color: #707070;
+  color: #131313;
 }
 .footer-right a svg {
-  width: 30px;
-  height: 30px;
+  display: flex;
+  width: 35px;
+  height: 35px;
 }
