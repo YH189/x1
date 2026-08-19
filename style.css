@@ -673,3 +673,67 @@ h2 {
   transform: scale(0.5s);
   opacity: 0.5s;
 }
+.site-footer {
+  background: #000000;
+  color: #999;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  padding: 0 40px 40px;
+  margin-top: 11vh;
+  margin-bottom: 3vh;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 15vw;
+  margin-left: 28vh;
+}
+
+.logo-img {
+  height: 8vh;
+  width: auto;
+  object-fit: contain;
+}
+
+.copyright {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+  font-size: 1.8vh;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 0.8vw;
+  margin-right: 37vh;
+}
+.footer-right a {
+  display: flex;
+  align-items: center;
+  gap: 0.6vw;
+  color: #646464;
+  text-decoration: none;
+  font-size: 13px;
+  transition: color 0.2s ease;
+}
+
+.footer-right a:hover {
+  color: #707070;
+}
+.footer-right a svg {
+  width: 30px;
+  height: 30px;
+}
