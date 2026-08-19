@@ -432,7 +432,7 @@ p {
   margin-top: 18vh;
   margin-right: 18vw;
   margin-left: 12vw;
-  border-radius: 4px;
+  border-radius: 15px;
 }
 .btn3 {
   margin-top: 3vh;
@@ -519,9 +519,9 @@ p {
 }
 .news {
   display: flex;
-  margin-left: 35vh;
+  margin-left: 33vh;
   margin-top: 15vh;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   font-weight: 400;
 }
 .img4 {
@@ -529,7 +529,7 @@ p {
   justify-content: center;
   gap: 1.5vw;
   margin-right: 2vw;
-  margin-top: 3.5vh;
+  margin-top: 1.5vh;
 }
 .img1 {
   display: flex;
@@ -541,8 +541,9 @@ p {
   display: flex;
   flex-direction: column;
   align-items: left;
-  margin-right: 2vw;
+  margin-left: 1vw;
   color: white;
+  gap: 0.5vw;
 }
 .time {
   color: #999;
@@ -552,4 +553,123 @@ p {
   margin-top: 1vh;
   color: #777777;
   font-size: 0.8vw;
+}
+h4 {
+  font-weight: 100;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 21vh;
+  font-size: 1.8vw;
+  font-weight: 300;
+}
+.cards-wrapper {
+  display: flex;
+  gap: 24px;
+  padding: 40px;
+  max-width: 60vw;
+  margin-left: 18vw;
+}
+
+.card {
+  flex: 1;
+  background: #202020;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0 0 12px;
+}
+
+.card-subtitle {
+  color: #999;
+  font-size: 15px;
+  margin: 0 0 28px;
+  line-height: 1.5;
+}
+
+.card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px;
+  flex-grow: 1;
+}
+
+.card-list li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 14px;
+  font-size: 15px;
+  color: #eee;
+}
+
+.card-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #777;
+}
+
+.btn {
+  width: 100%;
+  padding: 14px 0;
+  border-radius: 24px;
+  font-size: 0.7vw;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-filled {
+  background: #fff;
+  color: #000;
+  border: none;
+  font-family: "Space Grotesk", sans-serif;
+  transition:
+    background-color 0.1s,
+    transform 0.15s,
+    opacity 0.15s;
+}
+.btn-filled:active {
+  background-color: #c2c2c27c;
+  transform: scale(0.98);
+  opacity: 0.5s;
+}
+.btn-filled:hover {
+  background-color: #c2c2c27c;
+  color: white;
+  transform: scale(0.5s);
+  opacity: 0.5s;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #444;
+  font-family: "Space Grotesk", sans-serif;
+  transition:
+    background-color 0.2s,
+    transform 0.15s,
+    opacity 0.15s;
+}
+.btn-outline:active {
+  background-color: #5050507c;
+  transform: scale(0.98);
+  opacity: 0.5s;
+}
+.btn-outline:hover {
+  background-color: #5050507c;
+  transform: scale(0.5s);
+  opacity: 0.5s;
 }
