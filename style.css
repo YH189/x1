@@ -520,7 +520,20 @@ p {
 .news {
   display: flex;
   margin-left: 35vh;
-  margin-top: 23vh;
+  margin-top: 15vh;
   font-size: 1.5vw;
   font-weight: 400;
+}
+.img4 {
+  display: flex;
+  justify-content: center;
+  gap: 1.5vw;
+  margin-right: 5vw;
+  margin-top: 3.5vh;
+}
+.img1 {
+  display: flex;
+  width: 14vw;
+  height: 17vh;
+  border-radius: 12px;
 }
