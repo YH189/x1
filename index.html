@@ -26,18 +26,32 @@
   <body>
     <div class="navbar">
       <div class="logo">
-        <img src="x1.png" />
+        <img src="x1.png" alt="x1" />
+        <span class="site-name">x1</span>
       </div>
-      <div class="navlinks">
-        <a href="" class="links">Products</a>
-        <a href="" class="links">Solution</a>
-        <a href="" class="links">AI</a>
-        <a href="" class="links">Models</a>
-        <a href="" class="links">About</a>
-      </div>
-      <div class="btns">
-        <button class="demo">Start Free Demo</button>
-        <button class="download">Download</button>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="nav-panel"
+      >
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+      <div class="nav-panel" id="nav-panel">
+        <div class="navlinks">
+          <a href="#" class="links">Products</a>
+          <a href="#" class="links">Solution</a>
+          <a href="#" class="links">AI</a>
+          <a href="#" class="links">Models</a>
+          <a href="#" class="links">About</a>
+        </div>
+        <div class="btns">
+          <button class="demo">Start Free Demo</button>
+          <button class="download">Download</button>
+        </div>
       </div>
     </div>
     <hr class="line" />
@@ -185,5 +199,6 @@
     </div>
     </div>
   </div>
+    <script src="script.js"></script>
   </body>
 </html>
