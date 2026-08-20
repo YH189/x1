@@ -183,7 +183,7 @@ body {
 .text {
   color: rgb(255, 255, 255);
   font-size: 1.5vh;
-  font-weight: 900;
+  font-weight: 400;
 }
 .divide {
   color: rgba(255, 255, 255, 0.548);
