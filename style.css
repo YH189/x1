@@ -8,6 +8,10 @@ body {
   background-color: #000000;
   font-family: "Space Grotesk", sans-serif;
 }
+body::selection {
+  background-color: rgb(163, 163, 163);
+  color: black;
+}
 .navbar {
   display: flex;
   height: 6vh;
