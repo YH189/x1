@@ -179,7 +179,7 @@ body::selection {
 }
 .tag {
   color: #f85422;
-  border: 0.5px solid #f85422;
+  border: 1px solid #f85422;
   padding: 1px 12px;
   border-radius: 12px;
   font-size: 1.3vh;
