@@ -95,7 +95,7 @@ body::selection {
 .demo {
   background-color: black;
   backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(21px);
   border: 0.5px solid rgb(92, 92, 92);
   width: 8.5vmax;
   height: 3.7vh;
